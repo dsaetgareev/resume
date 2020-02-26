@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import ru.saetdin.resume.*;
 
 @RestController
-@RequestMapping("/helper")
+@RequestMapping("helper")
 public class HelperWindowsController {
 
     @Autowired

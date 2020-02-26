@@ -16,7 +16,7 @@ import ru.saetdin.resume.dto.NoteDto;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/note")
+@RequestMapping("note")
 public class NoteController {
 
     @Autowired

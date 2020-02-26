@@ -17,7 +17,7 @@ import ru.saetdin.resume.dto.NoteDto;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/image")
+@RequestMapping("image")
 public class ImageController {
 
     @Autowired

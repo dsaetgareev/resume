@@ -14,7 +14,7 @@ import ru.saetdin.resume.dto.DescriptionDto;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/desc")
+@RequestMapping("desc")
 public class DescriptionController {
 
     @Autowired
